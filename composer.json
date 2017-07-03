@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "classmap": [
+            "app/controller",
+            "app/model",
+            "app/library",
+            "app/helper"
+        ],
+        "files": [
+            "app/helper/helper.php"
+        ]
+    },
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}
